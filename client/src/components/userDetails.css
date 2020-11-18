@@ -1,0 +1,34 @@
+.form-style-info {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 15px;
+  margin-top: 15px;
+}
+
+.first-col {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.second-col {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+}
+
+input {
+  border: none;
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 1px solid chartreuse;
+}
+
+button {
+  margin-top: 30px;
+  padding: auto;
+}

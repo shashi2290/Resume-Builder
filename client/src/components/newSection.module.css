@@ -1,0 +1,25 @@
+.newSectionForm {
+  display: flex;
+  flex-direction: column;
+  min-height: auto;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 3% 5%;
+  padding: 10px 20px;
+}
+
+textarea {
+  border: none;
+  font-size: 15px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+  max-width: 100%;
+  text-align: justify;
+  outline: none;
+}
+
+textArea:focus {
+  background-color: rgb(196, 195, 195);
+  outline: none;
+}

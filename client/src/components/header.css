@@ -1,0 +1,16 @@
+.header {
+  background-color: aqua;
+  min-height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media print {
+  .header {
+    visibility: hidden;
+  }
+  @page {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
