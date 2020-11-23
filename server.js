@@ -37,7 +37,7 @@ app.get('/fetch-pdf', (req, res) => {
 
 //Connect to DB
 mongoose.connect(
-  'mongodb+srv://admin-shashi:shashi22@cluster0.edjrq.mongodb.net/resumeDB?retryWrites=true&w=majority',
+  'mongodb+srv://admin:<pwd>@cluster0.edjrq.mongodb.net/resumeDB?retryWrites=true&w=majority',
   { useNewUrlParser: true, useUnifiedTopology: true },
   () => {
     console.log('Connected to Atlas server');
